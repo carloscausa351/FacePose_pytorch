@@ -60,7 +60,7 @@ def main(args):
 
 def parse_args():
   parser = argparse.ArgumentParser(description='Testing')
-  parser.add_argument('--img',default="./img/suripse.jpg",type=str)
+  parser.add_argument('--img',default="./img/surprise.jpg",type=str)
   args = parser.parse_args()
   return args
 
